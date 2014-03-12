@@ -1,11 +1,18 @@
 """Custom fields for the WTForms library."""
 
+__all__ = ['FieldDict',
+           'SelectObjectField',
+           'PersistentBooleanField',
+           'DynamicSelectField']
+
+__description__ = """Custom fields for the WTForms library."""
+__version__ = "0.1"
+
 import itertools
 
 from wtforms import FieldList, SelectField, BooleanField
 from wtforms.fields import _unset_value
 from wtforms.compat import izip
-
 
 class FieldDict(FieldList):
     """Acts just like a FieldList, but works with a `dict` instead of

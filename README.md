@@ -8,6 +8,10 @@ WTForms. For now, it only contains:
 * `SelectObjectField`: used like `SelectField`, but is able to display a
   list of objects.
 
+## Install
+
+    pip install git+git://github.com/coderfi/wtforms-morefields.git
+
 ## Usage
 
     from wtforms_morefields import FieldDict, SelectObjectField

@@ -1,4 +1,6 @@
 venv/
-
 *.pyc
+build
+dist
+wtforms_morefields.egg-info
 
